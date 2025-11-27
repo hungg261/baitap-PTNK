@@ -1,5 +1,5 @@
-### ptnk
+### baitap-PTNK
 
 bai tap chuyen de cua minh :3
 
-10 Tin - PTNK
+Tin 25-28 PTNK
