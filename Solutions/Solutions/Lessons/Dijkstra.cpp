@@ -47,15 +47,15 @@ void dijkstra(){
 
     cout << dist[n] << '\n';
 
-    int cur = n;
-    vector<int> res;
-    while(cur != 0){
-        res.push_back(cur);
-        cur = parent[cur];
-    }
-
-    reverse(begin(res), end(res));
-    for(int node: res) cout << node << ' ';
+//    int cur = n;
+//    vector<int> res;
+//    while(cur != 0){
+//        res.push_back(cur);
+//        cur = parent[cur];
+//    }
+//
+//    reverse(begin(res), end(res));
+//    for(int node: res) cout << node << ' ';
 }
 
 signed main(){
@@ -70,7 +70,7 @@ signed main(){
         cin >> a >> b >> c;
 
         adj[a].push_back({c, b});
-        adj[b].push_back({c, a});
+//        adj[b].push_back({c, a});
     }
 
     dijkstra();
