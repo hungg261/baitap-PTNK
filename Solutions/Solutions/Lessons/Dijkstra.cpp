@@ -1,6 +1,6 @@
 /******************************************************************************
-Link: Dijkstra
-Code: Dijkstra
+Link: DIJKSTRA
+Code: DIJKSTRA
 Time (YYYY-MM-DD-hh.mm.ss): 2025-12-01-10.26.51
 *******************************************************************************/
 #include<bits/stdc++.h>
@@ -60,8 +60,8 @@ void dijkstra(){
 
 signed main(){
     ios_base::sync_with_stdio(0); cin.tie(0);
-    //freopen("Dijkstra.INP","r",stdin);
-    //freopen("Dijkstra.OUT","w",stdout);
+    freopen("DIJKSTRA.INP","r",stdin);
+    freopen("DIJKSTRA.OUT","w",stdout);
 
     ios_base::sync_with_stdio(0); cin.tie(0);
     cin >> n >> m;
