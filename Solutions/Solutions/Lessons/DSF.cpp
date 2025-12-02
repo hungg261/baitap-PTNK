@@ -26,7 +26,9 @@ int union_sets(int u, int v){
 }
 
 signed main(){
-    ios_base::sync_with_stdio(0);cin.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0);
+    freopen("DSF.INP","r",stdin);
+    freopen("DSF.OUT","w",stdout);
     int n, m;
     cin >> n >> m;
 
